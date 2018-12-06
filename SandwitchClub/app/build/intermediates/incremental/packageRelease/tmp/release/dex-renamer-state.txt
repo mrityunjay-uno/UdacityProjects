@@ -1,0 +1,4 @@
+#Thu Dec 06 14:02:23 IST 2018
+base.0=/Users/mrityunjaykumar/Desktop/UDACITY/UdacityProjects/SandwitchClub/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

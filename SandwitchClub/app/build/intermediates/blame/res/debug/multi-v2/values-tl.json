@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mrityunjaykumar/Documents/Assignments/Android 301/SandwitchClub/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "/Users/mrityunjaykumar/Desktop/UDACITY/UdacityProjects/SandwitchClub/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "/Users/mrityunjaykumar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha1.aar/ae7374272ab8caa58b265739b61fd5e0/res/values-tl/values-tl.xml",
