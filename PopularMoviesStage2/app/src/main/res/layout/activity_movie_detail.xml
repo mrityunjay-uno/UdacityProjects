@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:weightSum="10"
+tools:context="com.example.android.popularmovies.MovieDetail">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMovieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:paddingLeft="16dp"
+            android:gravity="center_vertical"
+            android:textSize="30sp"
+            android:textColor="@color/movieName"
+            android:background="@color/bg_movieName"/>
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/ivMoviePoster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvReleaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivMoviePoster"
+                android:layout_toRightOf="@+id/ivMoviePoster"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="2dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/tvRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvReleaseDate"
+                android:layout_toRightOf="@+id/ivMoviePoster"
+                android:paddingLeft="2dp"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/ibfavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_below="@+id/tvRating"
+                android:layout_toRightOf="@+id/ivMoviePoster"
+                android:text="Add To Favorite"
+                android:background="@null"
+                android:src="@android:drawable/btn_star"
+                android:onClick="onClickFavorite" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvSynopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl"
+            android:padding="16dp"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tvTrailers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/trailers"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvVideos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+
+        <TextView
+            android:id="@+id/tvReviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/reviews"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvReviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
