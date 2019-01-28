@@ -193,13 +193,11 @@ public class MainActivity extends AppCompatActivity implements MovieListAdapter.
         int id = item.getItemId();
 
         if (id == R.id.popular) {
-            String sortOrder="popular";
             loadMoviesData(POPULAR_MOVIE);
             return true;
         }
 
         if (id == R.id.top_rated) {
-            String sortOrder="top_rated";
             loadMoviesData(TOP_RATED_MOVIE);
             return true;
         }
