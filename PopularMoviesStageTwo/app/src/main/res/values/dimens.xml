@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="android_padding">1dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_detail_imageView_height">250dp</dimen>
+    <dimen name="activity_detailView_padding">6dp</dimen>
+    <dimen name="spinner_top_bottom_margin">20dp</dimen>
+    <dimen name="main_activity_recycler_view_top_margin">90dp</dimen>
+    <dimen name="trailer_text_view_top_margin">30dp</dimen>
+    <dimen name="detail_view_button_weight">1</dimen>
+    <dimen name="review_text_size">28dp</dimen>
+    <dimen name="review_view_top_margin">10dp</dimen>
+    <dimen name="review_author_text_size">18dp</dimen>
+</resources>

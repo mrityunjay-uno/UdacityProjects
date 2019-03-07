@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="standard_margin">5dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+
+    <dimen name="width_master_list">400dp</dimen>
+
+    <dimen name="recipe_list_item_height">75dp</dimen>
+
+    <dimen name="exoplayer_min_height">200dp</dimen>
+
+    <dimen name="widget_recipe_name_text_size">40sp</dimen>
+
+    <!-- App view corner radius -->
+    <dimen name="app_corner_radius">1dp</dimen>
+
+    <!-- Detail fragment dimensions -->
+    <dimen name="detail_ingredient_list_text_size">16sp</dimen>
+
+    <dimen name="master_list_text_size">18sp</dimen>
+
+    <dimen name="detail_step_text_size">18sp</dimen>
+
+    <!-- margin for widgets empty state text -->
+    <dimen name="widget_empty_state_text_margin">24dp</dimen>
+
+</resources>

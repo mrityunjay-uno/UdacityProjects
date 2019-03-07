@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="movie_picture_content_description">Movie picture</string>
+    <string name="movie_title">Movie title</string>
+    <string name="movie_original_title">Original Movie title</string>
+    <string name="Popularity">Popularity</string>
+    <string name="vote_average">vote average</string>
+    <string name="release_date">Release Date</string>
+    <string name="overview">Overview</string>
+    <string name="addFavorite">Add to Favorites: </string>
+    <string name="isFavorite">Favorite</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+
+</resources>
+
